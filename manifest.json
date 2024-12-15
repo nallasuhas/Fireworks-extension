@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Fireworks", 
+    "version": "0.1",
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "permissions": ["scripting", "activeTab"],
+    "action": {
+        
+    }
+
+}

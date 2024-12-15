@@ -1,3 +1,6 @@
+
+// using instance mode
+
 const s = (sketch) => {
    
    

@@ -1,6 +1,7 @@
 const id = "1"
 
 chrome.action.onClicked.addListener( async ( ) => {
+    // get all  registered content script details
     const activeScripts = await chrome.scripting.getRegisteredContentScripts()
 
     if(activeScripts.find((x) => x.id === id) ){

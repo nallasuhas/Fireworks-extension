@@ -107,8 +107,11 @@ const s = (sketch) => {
       sketch.setup = () => {
         document.body.style['userSelect'] = 'none';
         let c = sketch.createCanvas(sketch.windowWidth, sketch.windowHeight);
+       
         c.position(0, 0);
         c.style('pointer-events', 'none');
+        // fix it to viewport
+        c.style('position', 'fixed'); 
         sketch.colorMode(sketch.HSB); // Use sketch.HSB instead of HSB
         sketch.stroke(255);
         sketch.strokeWeight(4);

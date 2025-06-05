@@ -4,7 +4,7 @@
 ### 1. Clone or Download the Repository
 - **Clone with Git:**
   ```sh
-  git clone https://github.com/your-username/your-repo-name.git
+     https://github.com/nallasuhas/Fireworks-extension.git
   ```
 - **Or Download ZIP:**
   - Click the green **Code** button on GitHub, then select **Download ZIP**.
